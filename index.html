@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anuska Baniya — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main">
+      <a href="#hero" class="nav__logo">AB</a>
+      <button type="button" class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="nav-menu" class="nav__links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#footer" class="nav__cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="hero__eyebrow animate-on-scroll fade-in">Graphics &amp; Motion</p>
+        <h1 class="hero__title animate-on-scroll slide-up">Anuska Baniya</h1>
+        <p class="hero__text animate-on-scroll slide-up delay-1">
+          Passionate about graphics animation, I love bringing ideas to life through creative visuals and motion design. My work focuses on blending imagination with technology to create engaging and visually appealing digital experiences.
+        </p>
+        <div class="hero__actions animate-on-scroll slide-up delay-2">
+          <a href="#about" class="btn btn--primary">Discover more</a>
+          <a href="#footer" class="btn btn--ghost">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 class="section__title animate-on-scroll fade-in">About Me</h2>
+        <div class="about__grid">
+          <div class="about__image-wrap animate-on-scroll slide-up">
+            <img src="images/1000019879.jpg" alt="Anuska Baniya">
+            <div class="about__image-accent" aria-hidden="true"></div>
+          </div>
+          <div class="about__content animate-on-scroll slide-up delay-1">
+            <p class="about__text">
+              I am a creative individual with a strong interest in graphic designing. I enjoy exploring colors, typography, and visual storytelling to communicate ideas effectively. My goal is to continuously improve my skills and create impactful designs that stand out.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section section--alt">
+      <div class="container">
+        <h2 class="section__title animate-on-scroll fade-in">Skills</h2>
+        <ul class="skills__list">
+          <li class="skill-card animate-on-scroll slide-up">Adobe Photoshop</li>
+          <li class="skill-card animate-on-scroll slide-up delay-1">Adobe Illustrator</li>
+          <li class="skill-card animate-on-scroll slide-up delay-2">Canva</li>
+          <li class="skill-card animate-on-scroll slide-up">UI/UX Basics</li>
+          <li class="skill-card animate-on-scroll slide-up delay-1">Typography</li>
+          <li class="skill-card animate-on-scroll slide-up delay-2">Color Theory</li>
+          <li class="skill-card skill-card--wide animate-on-scroll slide-up">Creativity &amp; Visual Communication</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience" class="experience section">
+      <div class="container">
+        <h2 class="section__title animate-on-scroll fade-in">Experience</h2>
+        <article class="card card--experience animate-on-scroll slide-up">
+          <p>
+            I have worked on various personal and academic projects related to graphic design, including poster design, social media graphics, and digital illustrations. These experiences have helped me develop creativity, attention to detail, and design thinking.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="education section section--alt">
+      <div class="container">
+        <h2 class="section__title animate-on-scroll fade-in">Education</h2>
+        <article class="card card--education animate-on-scroll slide-up">
+          <h3 class="card__subtitle">Bachelor of Computer Applications</h3>
+          <p>Studying Bachelors Degree in Computer Applications, in HSMSS.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand animate-on-scroll fade-in">
+        <span class="footer__name">Anuska Baniya</span>
+        <span class="footer__tag">Design &amp; Animation</span>
+      </div>
+      <div class="footer__contact animate-on-scroll slide-up delay-1">
+        <a href="mailto:anuskabaniya3@gmai.com" class="footer__link">Email: anuskabaniya3@gmai.com</a>
+        <a href="tel:+919829299787" class="footer__link">Contact: 9829299787</a>
+      </div>
+      <p class="footer__copy animate-on-scroll fade-in delay-2">&copy; <span id="year"></span> Anuska Baniya. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
